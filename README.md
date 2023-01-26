@@ -1,5 +1,5 @@
 # Life_Guard_Gloves
-We attach the sensors like DS18B20 Temperature sensor, Flex sensor , Vibration motor, Heart beat sensor, MQ5 gas sensor to the gloves, we used Arduino uno and jumper wires. In the cloud side we used the Google Firebase to receive and sync the data of the patient.
+We attach the sensors like DS18B20 Temperature sensor, Flex sensor , Vibration sensor(ir sensor), Heart beat sensor, MQ5 gas sensor to the gloves, we used Arduino uno and jumper wires. In the cloud side we used the Google Firebase to receive and sync the data of the patient.
 
 - For the problem, we had made gloves for the patient. These gloves are worn by the patient who is in ICU. These gloves will detect the data like a heartbeat, body temperature, gases, and flex.
 - These detected data will send to the doctor’s device, nurse’s device, and the patient’s device through the cloud(Firebase) and mobile application. If the data is critical, it gives an alert message to the doctor, nurse, and attended, and also the dynamic data is continuously shared to all.
